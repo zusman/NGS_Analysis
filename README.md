@@ -7,7 +7,7 @@ The files are paired read fastq files (_R1.fastq and _R2.fastq) from patients at
 A Rscript to Plot Coverage distribution Plot.
 
 **Method**
-NGS Sequence analysis includes 5 key steps.
+NGS Sequence analysis includes 4 key steps.
 1. View Quality control using FASTQC 
 2. Filtering reads of low quality bases(Phred=33, Quality=20) using Trim galore, trimmomatic etc
 3. Create an alignment using BWA , TopHat, etc
