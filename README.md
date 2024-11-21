@@ -10,7 +10,7 @@ A Rscript to Plot Coverage distribution Plot.
 NGS Sequence analysis includes 4 key steps.
 1. View Quality control using FASTQC 
 2. Filtering reads of low quality bases(Phred=33, Quality=20) using Trim galore, trimmomatic etc
-3. Create an alignment using BWA , TopHat, etc
+3. Create an alignment using BWA , TopHat, etc. Run Picard for sorting, indexing Sam and Bam files.
 4. Create a consensus sequence using different time points sequences and generating one consensus sequence to visualize the mutations trajectory over the course of infection.
 
 **Results**
