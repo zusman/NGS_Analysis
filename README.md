@@ -13,5 +13,9 @@ NGS Sequence analysis includes 4 key steps.
 3. Create an alignment using BWA , TopHat, etc
 4. Create a consensus sequence using different time points sequences and generating one consensus sequence to visualize the mutations trajectory over the course of infection.
 
-
-
+**Results**
+1. Filtered Paired Fastq files
+2. Sam and Bam Mapped read File.
+3. Nucleotide and Aminoacid consensus sequence for each patient across different time points.
+4. Coverage plot of mapped read file for every sample across different time points.
+   
